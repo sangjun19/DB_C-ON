@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 393px;
+    height: 852px;
+}
+
+.screen .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 393px;
+    height: 852px;
+    position: relative;
+}
+
+.screen .overlap {
+    position: absolute;
+    width: 394px;
+    height: 617px;
+    top: 164px;
+    left: 0;
+}
+
+.screen .rectangle {
+    width: 393px;
+    height: 617px;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.screen .group {
+    position: absolute;
+    width: 393px;
+    height: 73px;
+    top: 0;
+    left: 0;
+    background-color: #74a8f6;
+}
+
+.screen .text-wrapper {
+    width: 146px;
+    height: 26px;
+    top: 22px;
+    left: 0;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .group-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    width: 379px;
+    height: 415px;
+    top: 97px;
+    left: 15px;
+    overflow-y: auto; /* 세로 스크롤 활성화 */
+    overflow-x: hidden; /* 가로 스크롤 숨김 */
+    -ms-overflow-style: none; /* IE 및 Edge용 스크롤바 숨김 */
+    scrollbar-width: none; /* Firefox용 스크롤바 숨김 */
+}
+
+.screen .group-4 {
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    top: 1px;
+    left: 0;
+}
+
+.screen .text-wrapper-4 {
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    white-space: nowrap;
+    top: 0;
+    left: 32px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .text-wrapper-5 {
+    width: 80px;
+    height: 24px;
+    top: 0;
+    left: 147px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 17px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .ellipse-3 {
+    top: 17px;
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    left: 17px;
+    background-color: #9bc3ff;
+    border-radius: 45.5px;
+}
+
+.screen .text-wrapper-6 {
+    width: 167px;
+    height: 40px;
+    top: 16px;
+    left: 130px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .group-7 {
+    position: absolute;
+    width: 229px;
+    height: 24px;
+    top: 61px;
+    left: 146px;
+}
+
+.screen .group-8 {
+    position: absolute;
+    width: 393px;
+    height: 95px;
+    top: 522px;
+    left: 0;
+    background-color: #d8e7fd;
+}
+
+.screen .text-wrapper-8 {
+    width: 150px;
+    height: 28px;
+    top: 529px;
+    /* left: 302px; */
+    text-align: right;
+    right: 30px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .overlap-group-wrapper {
+    position: absolute;
+    width: 315px;
+    height: 37px;
+    top: 570px;
+    left: 36px;
+}
+
+.screen .overlap-group {
+    position: relative;
+    width: 313px;
+    height: 37px;
+    background-color: #74a8f6;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.screen .text-wrapper-9 {
+    width: 78px;
+    height: 19px;
+    top: 5px;
+    left: 127px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .c-ON {
+    position: absolute;
+    width: 177px;
+    height: 55px;
+    top: 80px;
+    left: 105px;
+}
+
+.screen .overlap-2 {
+    position: absolute;
+    width: 393px;
+    height: 71px;
+    top: 781px;
+    left: 0;
+}
+
+.screen .group-9 {
+    position: absolute;
+    width: 393px;
+    height: 71px;
+    top: 0;
+    left: 0;
+    background-color: #74a8f6;
+}
+
+.screen .fastfood {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 14px;
+    left: 176px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.screen .storage {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 16px;
+    left: 59px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.screen .shopping-cart {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 14px;
+    left: 287px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 배치 */
+    gap: 20px; /* 요소들 사이의 간격 */
+    width: 100%; /* 필요에 따라 조정 */
+    height: auto; /* 자식 요소들에 맞게 높이 조정 */
+    margin-bottom: 120px; /* 메뉴 항목 사이의 간격 */
+    position: relative; /* position 속성 수정 */
+}
+
+.menu-item .ellipse {
+    width: 60px; /* 예시로 사이즈 조정 */
+    height: 60px; /* 예시로 사이즈 조정 */
+    background-color: #9bc3ff;
+    border-radius: 30px;
+}
+
+.menu-item .text-wrapper {
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 17px;
+}
+
+.menu-item .div-wrapper {
+    display: flex;
+    justify-content: flex-end; /* 오른쪽 정렬 */
+    width: 100%;
+}

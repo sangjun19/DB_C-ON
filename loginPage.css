@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 393px;
+    height: 852px;
+    display: flex;
+    justify-content: center;
+    position: relative;        
+    background: white;
+}
+
+.COn, .SignIn, .LogIn, .PhoneNumber, .Password {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    word-wrap: break-word;
+}
+
+.COn {
+    width: 228px;
+    height: 115px;
+    left: 80px;
+    top: 145px;
+    color: #5089F9;
+    font-size: 64px;
+    font-weight: 200;
+}
+
+.Group44, .Group76, .Group77 {
+    position: absolute;
+}
+
+.Rectangle3, .Rectangle5, .Rectangle6 {
+    position: absolute;
+    border-radius: 20px;
+}
+
+.LogIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 111px;
+    height: 45px;
+    background: #74A8F6;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Group44 {
+    width: 183px;
+    height: 45px;
+    top: 705px;
+    left: 35%;
+}
+
+.Rectangle3 {
+    width: 183px;
+    height: 45px;
+    background: #74A8F6;
+}
+
+.Group76, .Group77 {
+    width: 277px;
+    height: 62px;
+}
+
+.Group76 {
+    left: 58px;
+    top: 411px;
+}
+
+.Rectangle5, .Rectangle6 {
+    width: 277px;
+    height: 62px;
+    background: rgba(116, 168, 246, 0.28);
+    border: none;    
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.PhoneNumber, .Password {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.Group76 .PhoneNumber {
+    top: 17px;
+}
+
+.Group77 {
+    left: 58px;
+    top: 515px;
+}
+
+.Group77 .Password {
+    top: 17px;
+}
